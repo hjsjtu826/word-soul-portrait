@@ -19,6 +19,30 @@
 
 ---
 
+## 📱 小红书封面
+
+![小红书封面](examples/小红书封面.png)
+
+---
+
+## 🎨 词魂肖像案例
+
+<div align="center">
+
+| Petrichor | Ethereal | Solitude |
+|:---:|:---:|:---:|
+| ![Petrichor](examples/petrichor_雨后泥土香.png) | ![Ethereal](examples/ethereal_空灵.png) | ![Solitude](examples/solitude_独处.png) |
+| 雨后泥土香 | 空灵 | 独处 |
+
+| Mellifluous | Ephemeral |
+|:---:|:---:|
+| ![Mellifluous](examples/mellifluous_流畅如蜜.png) | ![Ephemeral](examples/ephemeral_转瞬即逝.png) |
+| 流畅如蜜 | 转瞬即逝 |
+
+</div>
+
+---
+
 ## 这是什么
 
 本作品不仅是"词典"，更是**"词魂的摄影师"**。

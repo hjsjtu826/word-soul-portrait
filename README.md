@@ -2,123 +2,192 @@
 
 <div align="center">
 
-**给英文单词一张脸**
+**英文单词深度解剖 · 电影级视觉学习卡**
 
-*Not a symbol. A soul made visible.*
+*Not a dictionary. A photographer for word souls.*
 
-[![Skill Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/your-username/word-soul-portrait)
-[![Wan2.7](https://img.shields.io/badge/Powered%20by-Wan2.7-green.svg)](https://tongyi.aliyun.com/wanxiang)
+[![Wan2.7](https://img.shields.io/badge/Powered%20by-Wan2.7%20Pro-green.svg)](https://tongyi.aliyun.com/wanxiang)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
 </div>
 
 ---
 
-## 这是什么
+## 🏆 核心得分点
 
-词魂肖像是一个AI技能，用于为英文单词生成"灵魂肖像"——不是画个象征物（"hope"画个太阳），而是生成一张能传达这个词"灵魂"的视觉卡片。
-
-**输入：** 一个英文单词（如 Solitude, Ethereal, Nostalgia）
-
-**输出：** 
-- 深度语义解析（三刀法解剖）
-- 一语道破的金句
-- 1080x1440 视觉肖像卡片（带文字）
+| 维度 | 权重 | 说明 |
+|------|------|------|
+| **创新性** | 40% | 彻底终结了 AIGC 领域"生图不识字"的尴尬，将李继刚的 Lisp 哲学解构从"文本/SVG"降维打击式升级为"原生电影级排版卡片" |
+| **技术复杂度** | 25% | 构建了"解词-映射-渲染-排版"的完整四阶工作流，实现了语义深度与视觉美学的高难度对齐 |
+| **商业实用性** | 25% | 直击千亿级教培市场及文创周边赛道，生成的卡片具备直接印刷与分发的高商用价值 |
 
 ---
 
-## 核心方法：三刀法
+## 这是什么
+
+本作品不仅是"词典"，更是**"词魂的摄影师"**。
+
+它深受李继刚先生《概念肖像师》与《汉语新解》的哲学启发，通过独特的"三刀法"切开单词表象，直达内核。
+
+**核心跨越：** 
+过去，李继刚的技能只能输出死板的 SVG 代码或简陋色块；
+**本作品利用万相 2.7 强大的原生文本引擎，完成了从"代码逻辑"向"电影美学"的降维打击。**
+
+每一张生成的词魂肖像，都是一张可以直接商用的、具备灵魂穿透力的视觉学习卡。
+
+---
+
+## 解决什么问题
+
+### 痛点
+1. **机械记忆单词效率低**：用户只记住了字母，没记住"感觉"
+2. **传统配图词不达意**：普通 AI 画个太阳代表 Hope，无法触及词源的深层隐喻
+3. **后期设计排版累**：普通生图无法在图上写字，更无法进行中文+音标的高级排版
+
+### 应用场景
+- **教育创新**：高定版英语词根词缀学习卡
+- **内容创作**：小红书/Instagram 知识博主的高级视觉素材
+- **文创周边**：极简风明信片、手机壁纸、品牌视觉命名（Naming）
+
+---
+
+## 核心方法论：三刀法
 
 ### 第一刀：原始画面
 追溯词源最物理的画面
+- 例：Petrichor → 希腊语"petra"(石头) + "ichor"(神的血液)
 
 ### 第二刀：核心意象公式
 提炼核心元素，写成公式
+- 例：Petrichor = 雨 + 泥土 + 秘密 → 雨后泥土香
 
 ### 第三刀：灵魂解释
 充满洞见的深层含义阐述
+- 例：大地在雨后，说出了它的秘密
 
 ---
 
-## 案例展示
+## 四阶工作流（Pipeline）
 
-### Solitude /ˈsɒlɪtjuːd/ 独处
+```
+[解词刀] → [视觉映射] → [构图设计] → [万相渲染]
+   ↓           ↓            ↓            ↓
+ 语义解剖    Prompt转译    负空间规划    原生文字渲染
+```
 
-**核心意象：** `Solitude = 自己 + 宁静 + 自由 → 独处`
-
-**一语道破：** 
-> "Solitude is not loneliness, but a conversation with yourself."
-> "独处不是孤独，而是与自己的对话。"
-
-![Solitude](examples/solitude_独处.png)
-
----
-
-### Ethereal /ɪˈθɪəriəl/ 空灵
-
-**核心意象：** `Ethereal = 轻盈 + 超凡 + 不真实 → 空灵`
-
-**一语道破：**
-> "Some beauty is so light, it almost doesn't exist."
-> "有些美，轻到几乎不存在。"
-
-![Ethereal](examples/ethereal_空灵.png)
+1. **[解词刀] (Semantic Anatomy)**：模仿 ljg 框架，执行"原始画面-意象公式-灵魂解释"的深度文本生成
+2. **[视觉映射] (Metaphor Mapping)**：将抽象的"灵魂解释"转译为万相 2.7 可理解的摄影级视觉 Prompt
+3. **[构图设计] (Layout Orchestration)**：自动规划 3:4 画布下方的负空间（Negative Space），为原生文字渲染预留锚点
+4. **[万相渲染] (Wan 2.7 Execution)**：强制调用原生文字引擎，将单词、音标、中文金句一次性无损渲染进画面
 
 ---
 
-### Nostalgia /nɒˈstældʒə/ 乡愁
+## 万相 2.7 核心能力
 
-**核心意象：** `Nostalgia = 回不去 + 记忆 + 温暖 → 乡愁`
-
-**一语道破：**
-> "We miss not the past, but the self we can no longer be."
-> "怀念的不是过去，是回不去的自己。"
-
-![Nostalgia](examples/nostalgia_乡愁.png)
+| 能力 | 说明 |
+|------|------|
+| **地表最强原生文字渲染** | 精准渲染中文、音标、特殊字符而绝不乱码，实现图文一体的工业级输出 |
+| **极高语义遵从度** | 模型能听懂"不画象征物，要画词的灵魂场景"这种高阶审美要求 |
+| **电影级光影质感** | 利用万相 Pro 模式的 4K 级表现力，将每个单词打造成大片级的"灵魂肖像" |
 
 ---
 
-### Petrichor /ˈpetrɪkɔːr/ 雨后泥土香
+## 夺冠案例展示
 
-**核心意象：** `Petrichor = 雨 + 泥土 + 秘密 → 雨后泥土香`
+### 1. Petrichor /ˈpet.rɪ.kɔːr/ 雨后泥土香
 
-**一语道破：**
-> "After the rain, the earth finally speaks."
-> "大地在雨后，说出了它的秘密。"
+**为何选它：** 这是一个极具"通感"的词。它描述的是一种气味，很难具象化。
+
+**凸显能力：**
+- 微距质感：湿润泥土、叶尖水滴、微小气泡的极高精度渲染
+- 光影氛围：雨后初晴的"丁达尔效应"和湿冷到微暖的色彩过渡
+- 文字测试：音标中的 /r/ 和中文字符的紧凑排版
+
+**一语道破：** "大地在雨后，说出了它的秘密。"
 
 ![Petrichor](examples/petrichor_雨后泥土香.png)
 
 ---
 
+### 2. Ethereal /ɪˈθɪə.ri.əl/ 空灵
+
+**为何选它：** 这个词是李继刚式"解构"的绝佳素材。它描述的是"轻到不存在"的美。
+
+**凸显能力：**
+- 半透明材质：薄雾、轻纱、光晕等高难度半透明材质的层级处理
+- 留白艺术：对"负空间"的掌控，确保文字排版区域干净且高级
+
+**一语道破：** "有些美，轻到几乎不存在。"
+
+![Ethereal](examples/ethereal_空灵.png)
+
+---
+
+### 3. Solitude /ˈsɒl.ɪ.tjuːd/ 独处
+
+**为何选它：** 区分"Loneliness (孤独)"与"Solitude (独处)"是本 Skill 的哲学高光点。
+
+**凸显能力：**
+- 电影感构图：影视级构图（三分法、大远景）的理解
+- 人物与环境融合：人物背景的一致性与和谐度
+
+**一语道破：** "独处不是孤独，而是与自己的对话。"
+
+![Solitude](examples/solitude_独处.png)
+
+---
+
+### 4. Mellifluous /meˈlɪf.lu.əs/ 流畅如蜜
+
+**为何选它：** 这是一个典型的"通感"词，将听觉（声音）转化为视觉（流动的蜜）。
+
+**凸显能力：**
+- 流体模拟：蜂蜜、液体粘稠质感与反光的物理级模拟
+- 色彩精准度：HEX 控色，呈现极具诱惑力的琥珀金 (#FFBF00)
+
+**一语道破：** "最好的声音，是耳朵的蜂蜜。"
+
+![Mellifluous](examples/mellifluous_流畅如蜜.png)
+
+---
+
+### 5. Ephemeral /ɪˈfem.ər.əl/ 转瞬即逝
+
+**为何选它：** 探讨时间的哲学。
+
+**凸显能力：**
+- 动态模糊与虚实："动态捕捉"和"景深虚化"的控制力
+- 复杂字符渲染：音标 /ɪˈfem.ər.əl/ 字符较多，是压力测试文字渲染稳定性的最佳案例
+
+**一语道破：** "美之所以珍贵，正因为它不长久。"
+
+![Ephemeral](examples/ephemeral_转瞬即逝.png)
+
+---
+
 ## 技术实现
 
-**图像生成：** 万相2.7（Wan2.7）图像生成模型
+**模型：** `wan2.7-image-pro`
 
-**Prompt结构：**
+**尺寸：** `1080x1440` (3:4 竖版杂志风)
+
+**Prompt 架构：**
 ```
-词魂肖像：{Word}
+[Word Portrait: {Word}]
 
-【灵魂定义】
-{核心意象公式}
+[Visual Core] 
+{根据三刀法生成的视觉公式}
 
-【视觉场景】
-{场景描述}
-{光影设计}
-{氛围描述}
+[Cinematic Style] 
+Minimalist photography, ethereal lighting, high-end editorial aesthetic.
 
-【画面文字排版】
-- 主标题："{Word}"
-- 音标："{音标}"
-- 中文："{中文翻译}"
-- 金句："{中文金句}"
-
-【风格】
-- 电影感摄影
-- 极简，有呼吸感
-- 文字清晰可读
-
-【尺寸】
-- 1080x1440（3:4竖版）
+[LAYOUT & TEXT RENDERING - MANDATORY]
+Leave clean negative space at the bottom 25% of the image.
+In this space, render the following text NATIVELY:
+1. Title: "{Word}" (Large, elegant serif)
+2. Phonetic: "{音标}" (Small, crisp)
+3. Insight: "{中文一语道破金句}" (Clean modern sans-serif)
+Ensure zero garbled text and perfect typography alignment.
 ```
 
 ---
@@ -136,75 +205,12 @@ ljg的核心哲学是：**不解释，让概念显形**。
 
 ---
 
-## 红线原则
+## 基本信息
 
-1. **不是翻译** - 目标是深层含义，不是中文翻译
-2. **不是象征物** - 不画太阳代表hope，画灵魂的视觉
-3. **有哲学高度** - 一语道破必须让人"哦"一声
-4. **极简，有呼吸感** - 不堆砌，留白
-5. **电影感，不是插画感** - 真实感，有故事感
-6. **文字融入画面** - 形成完整的学习卡片
-
----
-
-## 使用方式
-
-### 在 DuMate/OpenClaw 中使用
-
-```
-/word-soul-portrait Solitude
-```
-
-### 直接调用脚本
-
-```bash
-export DASHSCOPE_API_KEY="your-api-key"
-export DASHSCOPE_BASE_URL="https://dashscope.aliyuncs.com/api/v1/"
-
-python3 scripts/image-generation-editing.py \
-    --user_requirement "词魂肖像：Solitude..." \
-    --n 1 \
-    --size "1080*1440"
-```
-
----
-
-## 文件结构
-
-```
-word-soul-portrait/
-├── SKILL.md                    # Skill主文件
-├── README.md                   # 本文件
-├── examples/                   # 案例图片
-│   ├── solitude_独处.png
-│   ├── ethereal_空灵.png
-│   ├── nostalgia_乡愁.png
-│   └── petrichor_雨后泥土香.png
-├── scripts/                    # 生成脚本
-│   ├── image-generation-editing.py
-│   ├── file_to_oss.py
-│   ├── parse_resolution.py
-│   └── check_wan_task_status.py
-└── references/                 # 参考文档
-    ├── common.md
-    └── image-generation-editing.md
-```
-
----
-
-## 关于作者
-
-**硅蜜** - AI技能开发者
-
-联系方式：18157134636
-
----
-
-## 致谢
-
-- [ljg系列技能](https://github.com/ljg-skills) - 设计方法论启发
-- [万相2.7](https://tongyi.aliyun.com/wanxiang) - 图像生成模型
-- [DuMate](https://github.com/dumate) - AI助手平台
+- **作品名称：** 词魂肖像 (Word Soul Portrait)
+- **作者：** 硅蜜
+- **联系方式：** 18157134636
+- **GitHub：** https://github.com/hjsjtu826/word-soul-portrait
 
 ---
 
